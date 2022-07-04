@@ -15,5 +15,8 @@ public class Cat extends Animal {
     public void run() {
     }
 
-
+    @Override
+    public  void make() {
+        super.make();
+    }
 }
