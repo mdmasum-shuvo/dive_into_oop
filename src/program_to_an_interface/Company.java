@@ -1,13 +1,11 @@
 package program_to_an_interface;
 
-public class Company  implements Employee {
+public abstract class Company  {
 
-    public void createSoftware(){
+    public abstract Employee[] getEmployees();
 
-    }
-
-    @Override
-    public void doWork() {
+    public void createSoftware() {
 
     }
+
 }

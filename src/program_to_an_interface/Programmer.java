@@ -1,13 +1,11 @@
 package program_to_an_interface;
 
-public class Programmer extends Company{
+public class Programmer implements Employee {
 
-    public void writeCode(){
-
-    }
 
     @Override
     public void doWork() {
         System.out.println("Write Code");
+
     }
 }

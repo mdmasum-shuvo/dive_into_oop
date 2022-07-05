@@ -1,14 +1,10 @@
 package program_to_an_interface;
 
-public class Tester extends Company {
-
-    public void testSoftware() {
-
-    }
+public class Tester implements Employee {
 
     @Override
     public void doWork() {
-        System.out.println("Test Code");
+        System.out.println("Test Software");
 
     }
 }
