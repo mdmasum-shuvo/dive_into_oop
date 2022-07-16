@@ -1,7 +1,5 @@
 package solid_principle.single_responsibility;
 
-import com.sun.org.apache.xpath.internal.operations.Or;
-
 public class SingleResponsibilityPrinciple {
     public static void main(String[] args) {
 
